@@ -83,11 +83,25 @@ section a:hover {
 }
 
 /**************   Projects   *****************/
-.three-col {}
+.three-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
 
-.card img {}
+.card img {
+  border: 5px outset white;
+}
 
-.card {}
+.card {
+  padding: 5%;
+  background-color: #caaded;
+  text-align: center;
+  border: #2a0052;
+  border-style: groove;
+  box-shadow: 5px 5px;
+  margin: 5%;
+}
 
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
