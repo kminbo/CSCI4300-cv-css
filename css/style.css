@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  }
+}
 
 /****************   Nav Section **********************/
 nav {
-	background-color: #caaded;
+  background-color: #caaded;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,89 +17,75 @@ nav {
 footer {
   display: flex;
   justify-content: center;
-	background-color: #e3dbc3;
+  background-color: #e3dbc3;
   padding: 10px;
   font-style: italic;
 }
 
 /*********** Splash Page ************************/
 header {
-
+  padding: 20px;
+  border: #2a0052;
+  border-style: double;
 }
 
 header h1 {
-  
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #2a0052;
+  justify-content: center;
+  text-align: center;
 }
 
 header img {
+  border-radius: 200px 200px 0 0;
+  width: 300px;
 }
 
 .address {
- 
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-style: bold;
 }
 
 .tagline {
-  
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+  text-align: center;
 }
 
 /************* Sections ********************/
-hr {
+hr {}
 
-}
+section h3 {}
 
-section h3 {
-  
-}
+section dl {}
 
-section dl {
-  
-}
+section ul {}
 
-section ul {
+section a {}
 
-}
-
-section a {
-
-}
-
-section a:hover {
-}
+section a:hover {}
 
 /**************   Projects   *****************/
-.three-col {
-	
-}
+.three-col {}
 
-.card img {
+.card img {}
 
-}
-
-.card {
-  
-}
+.card {}
 
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
-    nav {
-      
-    }
+  nav {}
 
-    .three-col {
-      
-    }
+  .three-col {}
 }
 
 /**************   Contact Page   *****************/
-.one-col {
+.one-col {}
 
-}
+input {}
 
-input {
-  
-
-}
-
-textarea {
-   
-}
+textarea {}
