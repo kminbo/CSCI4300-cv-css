@@ -1,15 +1,32 @@
 body {
-
+  margin: 0;
   }
 
 /****************   Nav Section **********************/
 nav {
-	
+	background-color: #caaded;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 5px solid #a266c7;
+}
+
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 50px 0 50px;
+  box-sizing: border-box;
 }
 
 /***********************  Footer Section   **************************/
 footer {
-	
+  display: flex;
+  justify-content: center;
+	background-color: #e3dbc3;
+  padding: 10px;
+  font-style: italic;
 }
 
 /*********** Splash Page ************************/
