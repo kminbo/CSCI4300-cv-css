@@ -46,28 +46,41 @@ header img {
 .address {
   font-family: "Frank Ruhl Libre", serif;
   font-optical-sizing: auto;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .tagline {
   font-family: "Frank Ruhl Libre", serif;
   font-optical-sizing: auto;
-  font-style: bold;
+  font-weight: bold;
   text-align: center;
 }
 
 /************* Sections ********************/
 hr {}
 
-section h3 {}
+section h3 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  color: #2a0052;
+}
 
-section dl {}
+section dl {
+  display: grid;
+}
 
-section ul {}
+section ul {
+  list-style: square;
+}
 
-section a {}
+section a {
+  text-decoration: none;
+  color: #a266c7;
+}
 
-section a:hover {}
+section a:hover {
+  font-size: 105%;
+}
 
 /**************   Projects   *****************/
 .three-col {}
