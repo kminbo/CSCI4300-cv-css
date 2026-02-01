@@ -105,9 +105,17 @@ section a:hover {
 
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
-  nav {}
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
 
-  .three-col {}
+  .three-col {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
 }
 
 /**************   Contact Page   *****************/
