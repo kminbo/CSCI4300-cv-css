@@ -119,8 +119,24 @@ section a:hover {
 }
 
 /**************   Contact Page   *****************/
-.one-col {}
+form {
+  display: flex;
+  justify-content: center;
+}
 
-input {}
+.one-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-textarea {}
+input {
+  background-color: #b5ca8d;
+  border-style: dotted;
+}
+
+textarea {
+  background-color: #b5ca8d;
+  border-style: dotted;
+}

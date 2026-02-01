@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
@@ -10,14 +11,22 @@
 
 <body>
     <nav>
-        <p>
+        <!-- <p>
             Bomin Kim
         </p>
         <p>
             <a href="index.html">About Bomin</a>
-        </p>
-        <h1>Bomin Kim</h1>
-        <img src="images/headshot.jpg" alt="headshot image" width="150">
+        </p> -->
+        <div class="nav-header">
+            <p>
+                Bomin Kim
+                <a href="./index.html">About Bomin</a>
+            </p>
+        </div>
+        <header>
+            <h1>Bomin Kim</h1>
+            <img src="images/headshot.jpg" alt="headshot image" width="150">
+        </header>
         <p>
             address: 385 River Rd, Athens, GA 30609 &bull;
             phone: (706) 240-9371 &bull;
@@ -30,7 +39,7 @@
     </nav>
     <hr>
     <section>
-        <form action="https://formsubmit.co/kminbo214@gmail.com" method="POST">
+        <form action="https://formsubmit.co/kminbo214@gmail.com" method="POST" class="one-col">
             <label>Name:</label>
             <input type="text" name="name" required>
 
