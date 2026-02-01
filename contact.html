@@ -7,46 +7,45 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Contact Bomin</title>
     <script src="https://kit.fontawesome.com/f9bd6b7993.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav>
-        <!-- <p>
-            Bomin Kim
-        </p>
-        <p>
-            <a href="index.html">About Bomin</a>
-        </p> -->
         <div class="nav-header">
             <p>
                 Bomin Kim
+                </p>
+                <p>
                 <a href="./index.html">About Bomin</a>
             </p>
         </div>
         <header>
             <h1>Bomin Kim</h1>
-            <img src="images/headshot.jpg" alt="headshot image" width="150">
+            <img src="images/better_headshot_square.JPG" alt="headshot image" width="100">
         </header>
-        <p>
-            address: 385 River Rd, Athens, GA 30609 &bull;
-            phone: (706) 240-9371 &bull;
-            email: kminbo214@gmail.com
+        <p class="address">
+            385 River Rd, Athens, GA 30609 &bull;
+            (706) 240-9371 &bull;
+            kminbo214@gmail.com
         </p>
-        <p>
-            Interests: Development, Machine Learning, and Brain Science <br>
-            Goals: Developing user-centric solutions that solve real-world problems and improve daily life
+        <p class="tagline">
+            Development, Machine Learning, and Brain Science <br>
+            Developing user-centric solutions that solve real-world problems with ML
         </p>
     </nav>
     <hr>
     <section>
         <form action="https://formsubmit.co/kminbo214@gmail.com" method="POST" class="one-col">
-            <label>Name:</label>
+            <label>Name</label>
             <input type="text" name="name" required>
 
-            <label>Email:</label>
+            <label>Email</label>
             <input type="email" name="email" required>
 
-            <label>Message:</label>
+            <label>Message</label>
             <textarea name="message" rows="5" cols="30"></textarea>
             <button type="submit"> Send </button>
         </form>
